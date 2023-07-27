@@ -93,7 +93,7 @@
 
       <!-- slider section -->
       <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 my-10">
-        <div class="carousel w-full">
+        <div class="carousel h-60 md:h-auto w-full">
           <div id="slide1" class="carousel-item relative w-full opacity-100">
             <img src="./images/banner1.png" class="w-full" />
             <div
@@ -214,9 +214,30 @@
       </section>
 
       <!-- fruits section -->
-      <section >
-        
+      <section class="max-w-screen-xl relative mx-auto px-8 md:px-16 lg:px-24 my-10 md:mb-24 " >
 
+    <div class=" md:flex absolute -mt-32 bg-white rounded-xl gap-10 ml-28  hidden md:block">
+      <div class="">
+        <img src="./images/fruit1.png" alt="">
+        <h1>Blackberry</h1>
+      </div>
+      <div>
+        <img src="./images/fruit2.png" alt="">
+        <h1>Orange</h1>
+      </div>
+      <div>
+        <img src="./images/fruit3.png" alt="">
+        <h1>Mango</h1>
+      </div>
+      <div>
+        <img src="./images/fruit4.png" alt="">
+        <h1>Strawberry</h1>
+      </div>
+      <div>
+        <img src="./images/fruit5.png" alt="">
+        <h1>Pomegranate</h1>
+      </div>
+    </div>
 
       </section>
     </header>
@@ -224,10 +245,10 @@
     <main>
       <!-- Deal of the day -->
       <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 my-10">
-        <div class="flex-col md:flex-row lg:flex justify-between">
+        <div class="flex-col md:flex-row lg:flex justify-between ">
           <div>
-            <h1 class="text-5xl">Deal of the day</h1>
-            <p>
+            <h1 class="text-3xl mb-6  md:text-5xl">Deal of the day</h1>
+            <p >
               Contrary to popular belief, is not simply random text. It has
               roots in a piece of classical <br />
               Latin literature from 45 BC, making it over 2000 years old.
@@ -235,7 +256,7 @@
           </div>
 
           <div>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="grid grid-flow-col gap-5 mt-5 text-center auto-cols-max">
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
                   <span style="--value: 15"></span>
@@ -749,7 +770,7 @@
       <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 my-10  ">
         <div  class="text-center   ">
         
-            <h1 class="text-5xl ">Why Choose Us</h1>
+            <h1 class="text-3xl md:text-5xl mb-6">Why Choose Us</h1>
           <p >Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         
         </div>
@@ -846,10 +867,15 @@
         <a class="link link-hover">About Us</a> 
         <a class="link link-hover">Shop</a> 
         <a class="link link-hover">All Fruits</a> 
-        <a class="link link-hover">Support</a>
-        <a class="link link-hover">My Account</a>
+        <a class="link link-hover hidden md:block">Support</a>
+        <a class="link link-hover hidden md:block">My Account</a>
+        
 
       </div> 
+      <div class="flex gap-10 md:hidden">
+        <a class="link link-hover">Support</a>
+        <a class="link link-hover">My Account</a>
+      </div>
       <div>
         <div class="grid grid-flow-col gap-4">
           <a href=""><img src="./images/twitter 1.svg" alt=""></a>
